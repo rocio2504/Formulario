@@ -48,7 +48,11 @@ echo " Formulario"
               <option value="Lota">Lota</option>
               <option value="Coronel">Coronel</option>
               <option value="concepción">Concepción</option>
-            </select>      
+            </select>  
+            <input type="file" name="archivo_transferir" id="archivo_transferir" accept="application/pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, image/jpeg, image/png, image/bmp" class="input-file" size="5120" />
+                            <br><label id="lbl_archivo" name="lbl_archivo" style="color: red; font-weight: bold; display: none;width: 250px;"></label>
+                            <p style="font-size: 11px; color: #FA5858;">Seleccione un archivo con formato (pdf,doc,docx,xls,xlsx,jpg,png,bmp) menor a 5MB</p>
+            
           <label for="terminos">Legalidades:</label><br>
           <input type="checkbox" id="terminos"> Acepto los términos y condiciones          
         </div>
