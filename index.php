@@ -1,7 +1,7 @@
 <?php
+echo " Formulario"
 
-
-
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,4 +61,3 @@
 </div>
 </body>
 </html>
-?>
